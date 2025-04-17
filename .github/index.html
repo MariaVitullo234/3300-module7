@@ -11,7 +11,7 @@
         }
         table {
         border-collapse: collapse; 
-        width: 75%; 
+        width: 60%; 
         margin: 0 auto;
     }
 
@@ -23,6 +23,32 @@
 
     th {
         background-color: #f2f2f2; 
+    }
+    nav ul {
+        list-style-type: none; /* Removes bullet points */
+        padding: 0; /* Removes default padding */
+        margin: 0; /* Removes default margin */
+        display: flex; /* Aligns links horizontally */
+        justify-content: center; /* Centers the navigation */
+        gap: 20px; /* Adds space between links */
+    }
+
+    nav ul li {
+        display: inline; /* Ensures list items are inline */
+    }
+
+    nav ul li a {
+        text-decoration: none; /* Removes underline from links */
+        color: #007BFF; /* Sets link color (blue) */
+        font-weight: bold; /* Makes the text bold */
+        padding: 10px 15px; /* Adds padding around links */
+        border-radius: 5px; /* Rounds the corners */
+        transition: background-color 0.3s ease; /* Adds a hover effect */
+    }
+
+    nav ul li a:hover {
+        background-color: #f2f2f2; /* Changes background color on hover */
+        color: #0056b3; /* Changes text color on hover */
     }
     </style>
 </head>
